@@ -36,10 +36,10 @@ function Home() {
   return (
     <div className="container mt-4">
       <div className="d-flex justify-content-between align-items-center">
-        <h1 className="text-light">Popular Movies</h1>
+        <h1 className="text-dark">Popular Movies</h1>
         
-        {/* <div className="d-flex gap-3">
-          Genre Filter
+        <div className="d-flex gap-3">
+          {/* Genre Filter */}
           <select className="form-select w-auto" value={selectedGenre} onChange={handleGenreChange}>
             <option value="">All Genres</option>
             {genres.map((genre) => (
@@ -47,13 +47,13 @@ function Home() {
             ))}
           </select>
 
-          Sorting Dropdown
+          {/* Sorting Dropdown */}
           <select className="form-select w-auto" value={sortBy} onChange={handleSortChange}>
             <option value="">Sort By</option>
             <option value="rating">Rating (High → Low)</option>
             <option value="release_date">Release Date (New → Old)</option>
           </select>
-        </div> */}
+        </div>
       </div>
 
       <div className="row">

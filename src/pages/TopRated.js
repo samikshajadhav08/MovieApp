@@ -27,7 +27,7 @@ function TopRated() {
   return (
     <div className="container mt-4">
       <div className="d-flex justify-content-between">
-        <h1 className="text-light">Top Rated Movies</h1>
+        <h1 className="text-dark">Top Rated Movies</h1>
         <select className="form-select w-auto" value={sortBy} onChange={handleSortChange}>
           <option value="">Sort By</option>
           <option value="rating">Rating (High → Low)</option>

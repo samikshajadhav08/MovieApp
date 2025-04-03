@@ -11,7 +11,7 @@ function Upcoming() {
 
   return (
     <div className="container mt-4">
-      <h1 className="text-center text-light">Upcoming Movies</h1>
+      <h1 className="text-center text-dark">Upcoming Movies</h1>
       <div id="movieCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {movies.map((movie, index) => (
